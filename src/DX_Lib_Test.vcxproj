@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DC5F45C7-01F8-440D-B62D-BDA0398CF26F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DX_Lib_Test</RootNamespace>
+    <ProjectName>The Game</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Administrator\Desktop\DX_Lib_Test\Box2D;C:\Users\Administrator\Desktop\DX_Lib_Test\DXLib;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Administrator\Desktop\DX_Lib_Test\DXLib;C:\Users\Administrator\Desktop\DX_Lib_Test\Box2D;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\Administrator\Desktop\DX_Lib_Test\DXLib;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Administrator\Desktop\DX_Lib_Test\DXLib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CObject_Activetree.cpp" />
+    <ClCompile Include="CObject_Appletree.cpp" />
+    <ClCompile Include="CObject_Bg_Stage1_2.cpp" />
+    <ClCompile Include="CObject_Bg_Stage1_3.cpp" />
+    <ClCompile Include="CObject_Bg_Stage4_1.cpp" />
+    <ClCompile Include="CObject_Bg_Stage4_2.cpp" />
+    <ClCompile Include="CObject_Bg_Stage4_3.cpp" />
+    <ClCompile Include="CObject_Bg_Stage4_4.cpp" />
+    <ClCompile Include="CObject_Bg_Stage4_5.cpp" />
+    <ClCompile Include="CObject_Bg_Stage5_4.cpp" />
+    <ClCompile Include="CObject_Cannon.cpp" />
+    <ClCompile Include="CObject_Carpet.cpp" />
+    <ClCompile Include="CObject_Chat.cpp" />
+    <ClCompile Include="CObject_Lamp.cpp" />
+    <ClCompile Include="CObject_Minotaur.cpp" />
+    <ClCompile Include="CObject_Minotaur_Boss.cpp" />
+    <ClCompile Include="CObject_Mole.cpp" />
+    <ClCompile Include="CObject_Result.cpp" />
+    <ClCompile Include="CObject_Shadow.cpp" />
+    <ClCompile Include="CObject_Skillwd.cpp" />
+    <ClCompile Include="CObject_Skill_Meteor.cpp" />
+    <ClCompile Include="CObject_Skill_Summon.cpp" />
+    <ClCompile Include="CObject_Skill_Thunderstorm.cpp" />
+    <ClCompile Include="CObject_Skill_Tornado.cpp" />
+    <ClCompile Include="CObject_Skill_Water.cpp" />
+    <ClCompile Include="CObject_Stair.cpp" />
+    <ClCompile Include="CObject_Status.cpp" />
+    <ClCompile Include="CObject_Wanted.cpp" />
+    <ClCompile Include="CScene_Loading.cpp" />
+    <ClCompile Include="CScene_Stage1_2.cpp" />
+    <ClCompile Include="CScene_Stage1_3.cpp" />
+    <ClCompile Include="CScene_Stage4_1.cpp" />
+    <ClCompile Include="CScene_Stage4_2.cpp" />
+    <ClCompile Include="CScene_Stage4_3.cpp" />
+    <ClCompile Include="CScene_Stage4_4.cpp" />
+    <ClCompile Include="CScene_Stage4_5.cpp" />
+    <ClCompile Include="CScene_Stage5_4.cpp" />
+    <ClCompile Include="CState_Enter.cpp" />
+    <ClCompile Include="CState_Skill05.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="CObject_Bird.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="CState.cpp" />
+    <ClCompile Include="CCollision.cpp" />
+    <ClCompile Include="CGameManager.cpp" />
+    <ClCompile Include="CObjectManager.cpp" />
+    <ClCompile Include="CObject_Background.cpp" />
+    <ClCompile Include="CObject_Enemy.cpp" />
+    <ClCompile Include="CObject_Hero.cpp" />
+    <ClCompile Include="CObject_Interface.cpp" />
+    <ClCompile Include="CObject_Tree.cpp" />
+    <ClCompile Include="CSceneManager.cpp" />
+    <ClCompile Include="CObject.cpp" />
+    <ClCompile Include="CScene.cpp" />
+    <ClCompile Include="CScene_Stage1_1.cpp" />
+    <ClCompile Include="CScene_Start.cpp" />
+    <ClCompile Include="CSound.cpp" />
+    <ClCompile Include="CSprite.cpp" />
+    <ClCompile Include="CGlobal.cpp" />
+    <ClCompile Include="CState_Guard.cpp" />
+    <ClCompile Include="CState_Hit.cpp" />
+    <ClCompile Include="CState_Jump.cpp" />
+    <ClCompile Include="CState_Skill01.cpp" />
+    <ClCompile Include="CState_Skill02.cpp" />
+    <ClCompile Include="CState_Skill03.cpp" />
+    <ClCompile Include="CState_Skill04.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CState_Attack.cpp" />
+    <ClCompile Include="CState_Move.cpp" />
+    <ClCompile Include="CState_Stand.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CObject_Activetree.h" />
+    <ClInclude Include="CObject_Appletree.h" />
+    <ClInclude Include="CObject_Bg_Stage1_2.h" />
+    <ClInclude Include="CObject_Bg_Stage1_3.h" />
+    <ClInclude Include="CObject_Bg_Stage4_1.h" />
+    <ClInclude Include="CObject_Bg_Stage4_2.h" />
+    <ClInclude Include="CObject_Bg_Stage4_3.h" />
+    <ClInclude Include="CObject_Bg_Stage4_4.h" />
+    <ClInclude Include="CObject_Bg_Stage4_5.h" />
+    <ClInclude Include="CObject_Bg_Stage5_4.h" />
+    <ClInclude Include="CObject_Cannon.h" />
+    <ClInclude Include="CObject_Carpet.h" />
+    <ClInclude Include="CObject_Chat.h" />
+    <ClInclude Include="CObject_Lamp.h" />
+    <ClInclude Include="CObject_Minotaur.h" />
+    <ClInclude Include="CObject_Minotaur_Boss.h" />
+    <ClInclude Include="CObject_Mole.h" />
+    <ClInclude Include="CObject_Result.h" />
+    <ClInclude Include="CObject_Shadow.h" />
+    <ClInclude Include="CObject_Skillwd.h" />
+    <ClInclude Include="CObject_Skill_Meteor.h" />
+    <ClInclude Include="CObject_Skill_Summon.h" />
+    <ClInclude Include="CObject_Skill_Thunderstorm.h" />
+    <ClInclude Include="CObject_Skill_Tornado.h" />
+    <ClInclude Include="CObject_Skill_Water.h" />
+    <ClInclude Include="CObject_Stair.h" />
+    <ClInclude Include="CObject_Status.h" />
+    <ClInclude Include="CObject_Wanted.h" />
+    <ClInclude Include="CScene_Loading.h" />
+    <ClInclude Include="CScene_Stage1_2.h" />
+    <ClInclude Include="CScene_Stage1_3.h" />
+    <ClInclude Include="CObject_Bird.h" />
+    <ClInclude Include="CScene_Stage4_1.h" />
+    <ClInclude Include="CScene_Stage4_2.h" />
+    <ClInclude Include="CScene_Stage4_3.h" />
+    <ClInclude Include="CScene_Stage4_4.h" />
+    <ClInclude Include="CScene_Stage4_5.h" />
+    <ClInclude Include="CScene_Stage5_4.h" />
+    <ClInclude Include="CState_Enter.h" />
+    <ClInclude Include="CState_Skill05.h" />
+    <ClInclude Include="Qusy.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="CState.h" />
+    <ClInclude Include="CCollision.h" />
+    <ClInclude Include="CGameManager.h" />
+    <ClInclude Include="CObjectManager.h" />
+    <ClInclude Include="CObject_Enemy.h" />
+    <ClInclude Include="CObject_Hero.h" />
+    <ClInclude Include="CObject_Interface.h" />
+    <ClInclude Include="CObject_Tree.h" />
+    <ClInclude Include="CSceneManager.h" />
+    <ClInclude Include="CObject.h" />
+    <ClInclude Include="CScene.h" />
+    <ClInclude Include="CObject_Background.h" />
+    <ClInclude Include="CScene_Stage1_1.h" />
+    <ClInclude Include="CScene_Start.h" />
+    <ClInclude Include="CSound.h" />
+    <ClInclude Include="CSprite.h" />
+    <ClInclude Include="CState_Attack.h" />
+    <ClInclude Include="CState_Guard.h" />
+    <ClInclude Include="CState_Hit.h" />
+    <ClInclude Include="CState_Jump.h" />
+    <ClInclude Include="CState_Move.h" />
+    <ClInclude Include="CState_Skill01.h" />
+    <ClInclude Include="CState_Skill02.h" />
+    <ClInclude Include="CState_Skill03.h" />
+    <ClInclude Include="CState_Skill04.h" />
+    <ClInclude Include="CState_Stand.h" />
+    <ClInclude Include="CGlobal.h" />
+    <ClInclude Include="ResourceManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+    <ResourceCompile Include="The Game.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

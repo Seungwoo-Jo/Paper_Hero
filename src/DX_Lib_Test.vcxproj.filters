@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Prototype">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Prototype\Scenes">
+      <UniqueIdentifier>{d1b24f5e-34df-4ff5-a521-a3871dfa9243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Scenes\Parents">
+      <UniqueIdentifier>{4e6fad02-e5c5-48e6-b48e-a2ba245e4038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Util">
+      <UniqueIdentifier>{9030d995-8651-4f87-b806-4ced76a0696c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Util\Sprite">
+      <UniqueIdentifier>{144cda67-d641-48c4-bd87-b4909b53595d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Util\Collision">
+      <UniqueIdentifier>{f81ff739-e99b-4eda-a734-ab81b4ec87cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects">
+      <UniqueIdentifier>{c8677ced-8704-46ac-b1de-3899e6511e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects\Parents">
+      <UniqueIdentifier>{04c98dcd-0974-4b78-835c-feeb442533cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Managers">
+      <UniqueIdentifier>{b3c42622-801d-48ba-b0c4-9f791fe2abb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Util\Sound">
+      <UniqueIdentifier>{e523f4f8-15bf-40d9-ad09-a483b26c20dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects\Hero Behavior State">
+      <UniqueIdentifier>{3f6b3431-5f06-42a2-a150-d2283dec5efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects\Hero Behavior State\Parents">
+      <UniqueIdentifier>{18af6362-5c8b-4dd9-885a-696944cb2884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects\Enemy">
+      <UniqueIdentifier>{2f4dae89-0f5d-482e-b2ee-9e617e0db4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frame">
+      <UniqueIdentifier>{bc9bfccd-06c6-4ccc-b188-0b1460813d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects\Background">
+      <UniqueIdentifier>{b3ab623b-d3fd-4496-b209-110c3138183a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects\Skill">
+      <UniqueIdentifier>{2737f372-5a52-4fc2-ad8a-f4cb0be5159e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects\Common">
+      <UniqueIdentifier>{878f3fd9-0b8d-40fd-8a9b-e00f9703ac1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Scenes\Stage01">
+      <UniqueIdentifier>{4c66c777-92c9-42c3-b600-76f760774a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Scenes\Stage04">
+      <UniqueIdentifier>{790a2ea1-4c02-462d-8e35-2d7fc54be9d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Scenes\Stage05">
+      <UniqueIdentifier>{b9b4487e-203f-42c5-b689-25d0c0980075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects\Background\Stage01">
+      <UniqueIdentifier>{5acdc5b8-985c-426f-b0ef-5c81a8811893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects\Background\Stage04">
+      <UniqueIdentifier>{d8715641-ac14-4f2e-b424-0e87c409d9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects\Background\Stage05">
+      <UniqueIdentifier>{9b1a5981-3733-419e-9135-8a84438bff82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects\Enemy\Stage01">
+      <UniqueIdentifier>{d4c93b07-a8f9-4df4-afa0-01de3383d51c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects\Enemy\Parents">
+      <UniqueIdentifier>{6af4fec6-81c0-4b54-a698-2e4dfa463066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects\Enemy\Stage04">
+      <UniqueIdentifier>{461e8a50-7dfb-4833-8da5-807ebc6d0d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects\Props">
+      <UniqueIdentifier>{696e3d40-3024-4cf9-9bfb-24091914e785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects\Props\Stage01">
+      <UniqueIdentifier>{9afc127a-30e7-4478-bb2c-d76c08d85039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects\Props\Stage04">
+      <UniqueIdentifier>{fb72d28f-d907-4417-a327-3bdbf093d97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype\Objects\Enemy\Stage05">
+      <UniqueIdentifier>{e0f2f4cf-af91-46aa-baf9-31014f0aa6b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="CSprite.cpp">
+      <Filter>Prototype\Util\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Prototype\Scenes\Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>Prototype\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Start.cpp">
+      <Filter>Prototype\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>Prototype\Objects\Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameManager.cpp">
+      <Filter>Prototype\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollision.cpp">
+      <Filter>Prototype\Util\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Prototype\Util\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CState_Stand.cpp">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClCompile>
+    <ClCompile Include="CState_Attack.cpp">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClCompile>
+    <ClCompile Include="CState_Move.cpp">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClCompile>
+    <ClCompile Include="CState.cpp">
+      <Filter>Prototype\Objects\Hero Behavior State\Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CGlobal.cpp">
+      <Filter>Prototype\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="CState_Skill01.cpp">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectManager.cpp">
+      <Filter>Prototype\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CState_Jump.cpp">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClCompile>
+    <ClCompile Include="CState_Skill02.cpp">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClCompile>
+    <ClCompile Include="CState_Skill03.cpp">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClCompile>
+    <ClCompile Include="CState_Skill04.cpp">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClCompile>
+    <ClCompile Include="CState_Guard.cpp">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClCompile>
+    <ClCompile Include="CState_Hit.cpp">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Background.cpp">
+      <Filter>Prototype\Objects\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Skill_Thunderstorm.cpp">
+      <Filter>Prototype\Objects\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="CState_Enter.cpp">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Wanted.cpp">
+      <Filter>Prototype\Objects\Props\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Activetree.cpp">
+      <Filter>Prototype\Objects\Props\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Appletree.cpp">
+      <Filter>Prototype\Objects\Props\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Bird.cpp">
+      <Filter>Prototype\Objects\Props\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Chat.cpp">
+      <Filter>Prototype\Objects\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Hero.cpp">
+      <Filter>Prototype\Objects\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Interface.cpp">
+      <Filter>Prototype\Objects\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Result.cpp">
+      <Filter>Prototype\Objects\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Skillwd.cpp">
+      <Filter>Prototype\Objects\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Status.cpp">
+      <Filter>Prototype\Objects\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Tree.cpp">
+      <Filter>Prototype\Objects\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Stage1_1.cpp">
+      <Filter>Prototype\Scenes\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Stage1_2.cpp">
+      <Filter>Prototype\Scenes\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Stage1_3.cpp">
+      <Filter>Prototype\Scenes\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Stair.cpp">
+      <Filter>Prototype\Objects\Props\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Stage4_1.cpp">
+      <Filter>Prototype\Scenes\Stage04</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Stage4_2.cpp">
+      <Filter>Prototype\Scenes\Stage04</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Stage4_3.cpp">
+      <Filter>Prototype\Scenes\Stage04</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Stage4_4.cpp">
+      <Filter>Prototype\Scenes\Stage04</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Stage4_5.cpp">
+      <Filter>Prototype\Scenes\Stage04</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Bg_Stage1_2.cpp">
+      <Filter>Prototype\Objects\Background\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Bg_Stage1_3.cpp">
+      <Filter>Prototype\Objects\Background\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Bg_Stage4_1.cpp">
+      <Filter>Prototype\Objects\Background\Stage04</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Bg_Stage4_2.cpp">
+      <Filter>Prototype\Objects\Background\Stage04</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Bg_Stage4_3.cpp">
+      <Filter>Prototype\Objects\Background\Stage04</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Bg_Stage4_4.cpp">
+      <Filter>Prototype\Objects\Background\Stage04</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Bg_Stage4_5.cpp">
+      <Filter>Prototype\Objects\Background\Stage04</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Skill_Meteor.cpp">
+      <Filter>Prototype\Objects\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Enemy.cpp">
+      <Filter>Prototype\Objects\Enemy\Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Cannon.cpp">
+      <Filter>Prototype\Objects\Enemy\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Minotaur.cpp">
+      <Filter>Prototype\Objects\Enemy\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Minotaur_Boss.cpp">
+      <Filter>Prototype\Objects\Enemy\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Mole.cpp">
+      <Filter>Prototype\Objects\Enemy\Stage04</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Carpet.cpp">
+      <Filter>Prototype\Objects\Enemy\Stage04</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Loading.cpp">
+      <Filter>Prototype\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Skill_Tornado.cpp">
+      <Filter>Prototype\Objects\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="CState_Skill05.cpp">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Skill_Summon.cpp">
+      <Filter>Prototype\Objects\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Skill_Water.cpp">
+      <Filter>Prototype\Objects\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Lamp.cpp">
+      <Filter>Prototype\Objects\Enemy\Stage04</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Bg_Stage5_4.cpp">
+      <Filter>Prototype\Objects\Background\Stage05</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Stage5_4.cpp">
+      <Filter>Prototype\Scenes\Stage05</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Shadow.cpp">
+      <Filter>Prototype\Objects\Enemy\Stage05</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSprite.h">
+      <Filter>Prototype\Util\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Prototype\Scenes\Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>Prototype\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Start.h">
+      <Filter>Prototype\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>Prototype\Objects\Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameManager.h">
+      <Filter>Prototype\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollision.h">
+      <Filter>Prototype\Util\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectManager.h">
+      <Filter>Prototype\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Prototype\Util\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CState_Stand.h">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClInclude>
+    <ClInclude Include="CState_Attack.h">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClInclude>
+    <ClInclude Include="CState.h">
+      <Filter>Prototype\Objects\Hero Behavior State\Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CState_Move.h">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobal.h">
+      <Filter>Prototype\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CState_Skill01.h">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClInclude>
+    <ClInclude Include="CState_Jump.h">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClInclude>
+    <ClInclude Include="CState_Skill02.h">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClInclude>
+    <ClInclude Include="CState_Skill03.h">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClInclude>
+    <ClInclude Include="CState_Skill04.h">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClInclude>
+    <ClInclude Include="CState_Guard.h">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClInclude>
+    <ClInclude Include="CState_Hit.h">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClInclude>
+    <ClInclude Include="Qusy.h">
+      <Filter>Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Background.h">
+      <Filter>Prototype\Objects\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Skill_Tornado.h">
+      <Filter>Prototype\Objects\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Skill_Meteor.h">
+      <Filter>Prototype\Objects\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Skill_Thunderstorm.h">
+      <Filter>Prototype\Objects\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="CState_Enter.h">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Wanted.h">
+      <Filter>Prototype\Objects\Props\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Appletree.h">
+      <Filter>Prototype\Objects\Props\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Activetree.h">
+      <Filter>Prototype\Objects\Props\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Bird.h">
+      <Filter>Prototype\Objects\Props\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Chat.h">
+      <Filter>Prototype\Objects\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Hero.h">
+      <Filter>Prototype\Objects\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Interface.h">
+      <Filter>Prototype\Objects\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Result.h">
+      <Filter>Prototype\Objects\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Skillwd.h">
+      <Filter>Prototype\Objects\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Status.h">
+      <Filter>Prototype\Objects\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Tree.h">
+      <Filter>Prototype\Objects\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Stage1_1.h">
+      <Filter>Prototype\Scenes\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Stage1_2.h">
+      <Filter>Prototype\Scenes\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Stage1_3.h">
+      <Filter>Prototype\Scenes\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Stair.h">
+      <Filter>Prototype\Objects\Props\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Stage4_1.h">
+      <Filter>Prototype\Scenes\Stage04</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Stage4_2.h">
+      <Filter>Prototype\Scenes\Stage04</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Stage4_3.h">
+      <Filter>Prototype\Scenes\Stage04</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Stage4_4.h">
+      <Filter>Prototype\Scenes\Stage04</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Stage4_5.h">
+      <Filter>Prototype\Scenes\Stage04</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Bg_Stage1_3.h">
+      <Filter>Prototype\Objects\Background\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Bg_Stage1_2.h">
+      <Filter>Prototype\Objects\Background\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Bg_Stage4_1.h">
+      <Filter>Prototype\Objects\Background\Stage04</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Bg_Stage4_2.h">
+      <Filter>Prototype\Objects\Background\Stage04</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Bg_Stage4_3.h">
+      <Filter>Prototype\Objects\Background\Stage04</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Bg_Stage4_4.h">
+      <Filter>Prototype\Objects\Background\Stage04</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Bg_Stage4_5.h">
+      <Filter>Prototype\Objects\Background\Stage04</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Enemy.h">
+      <Filter>Prototype\Objects\Enemy\Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Cannon.h">
+      <Filter>Prototype\Objects\Enemy\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Minotaur.h">
+      <Filter>Prototype\Objects\Enemy\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Minotaur_Boss.h">
+      <Filter>Prototype\Objects\Enemy\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Mole.h">
+      <Filter>Prototype\Objects\Enemy\Stage04</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Carpet.h">
+      <Filter>Prototype\Objects\Enemy\Stage04</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Loading.h">
+      <Filter>Prototype\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="CState_Skill05.h">
+      <Filter>Prototype\Objects\Hero Behavior State</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Skill_Summon.h">
+      <Filter>Prototype\Objects\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Skill_Water.h">
+      <Filter>Prototype\Objects\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Lamp.h">
+      <Filter>Prototype\Objects\Enemy\Stage04</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Bg_Stage5_4.h">
+      <Filter>Prototype\Objects\Background\Stage05</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Stage5_4.h">
+      <Filter>Prototype\Scenes\Stage05</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Shadow.h">
+      <Filter>Prototype\Objects\Enemy\Stage05</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="The Game.rc" />
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+</Project>
